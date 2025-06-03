@@ -1,4 +1,101 @@
+body {
+  background-color: aquamarine;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: yellow;
+  color: darkgray;
+}
+
+section {
+  width: 800px;
+}
+
+p,
+span {
+  text-align: justify;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+p {
+  color: lightgray;
+}
+
+
 #main-box {
+  background-color: rgba(216, 255, 102, 1);
+
+}
+
+.generic-box,
+.secondary-box {
+  background-color: blue
+}
+
+.generic-box {
+  width: 800px;
+}
+
+.product-box {
   background-color: red;
-  color: yellow;
+  width: 300px;
+  padding: 5px;
+}
+
+.product-box img {
+  width: 100%;
+}
+
+.product-box p {
+  font-size: 0.8;
+
+}
+
+.box-image {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-color: cadetblue;
+  background-image: url(https://cdn.studenti.stbm.it/images/2022/01/27/ecosistema-bosco-orig.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.box-image p {
+  background-color: rgba(0, 0, 0, .7);
+  font-size: small;
+  padding: 5px;
 }
